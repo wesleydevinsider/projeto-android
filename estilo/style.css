@@ -67,6 +67,7 @@ nav {
     background-color: var(--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    
 }
 
 nav > a {
@@ -75,7 +76,9 @@ nav > a {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: .5s;
+    transition-duration: 1s;
+    
+    
 }
 
 nav > a:hover {
@@ -206,3 +209,25 @@ footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
 }
+
+
+@media screen and (max-width: 500px) {
+    nav a {
+      float: none;
+      display: block;
+      text-align: center;
+      width: 90%;
+      margin: 0;
+      padding: 14px;
+    }
+}
+    
+    
+
+
+ 
+
+   
+ 
+
+
